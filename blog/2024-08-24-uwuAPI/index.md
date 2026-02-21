@@ -91,7 +91,7 @@ button = {
   - **`style`**: 按鈕的樣式，`5` 表示這是一個連結按鈕 (Link Button)。
   - **`url`**: 按鈕的目標網址，點擊後將導向此連結。
 
-#### 下表為 components 底下元素常用的屬性，更多內容可以參考(官方文檔)[https://discord.com/developers/docs/interactions/message-components]
+#### 下表為 components 底下元素常用的屬性，更多內容可以參考(官方說明文件)[https://discord.com/developers/docs/interactions/message-components]
 
 | 屬性        | 類型   | 說明                                                                                             |
 | ----------- | ------ | ------------------------------------------------------------------------------------------------ |
