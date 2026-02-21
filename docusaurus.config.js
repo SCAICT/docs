@@ -48,13 +48,13 @@ const config = {
                     routeBasePath: '/',
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                    editUrl: "https://github.com/SCAICT/docs/blob/main/",
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: "https://github.com/SCAICT/docs",
+                    editUrl: "https://github.com/SCAICT/docs/blob/main/",
                 },
                 theme: {
                     customCss: "./src/css/custom.css",
