@@ -1,8 +1,9 @@
 {
-  "label": "prettier",
+  "label": "Prettier",
   "position": 3,
   "link": {
     "type": "generated-index",
+    "slug": "/prettier",
     "description": "強大的程式碼格式化工具。"
   }
 }
