@@ -1,3 +1,7 @@
+community events:
+  label: 社群活動
+  permalink: /community-events
+  description: 中電會相關的社群活動
 news:
   label: 新聞
   permalink: /news

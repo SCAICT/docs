@@ -2,7 +2,7 @@
 slug: hitcon2024
 title: HITCON 2024
 authors: [SCAICT]
-tags: [HITCON 2024,社群活動]
+tags: [HITCON 2024, community events]
 ---
 中電在今年 2024 HITCON 有參與社群擺攤，地點在中央研究院人文社會科學館，
 <!-- truncate -->
