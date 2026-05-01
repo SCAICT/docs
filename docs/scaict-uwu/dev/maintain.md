@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-authors: [iach526526]
+authors: [iach526526, winstonsung]
 slug: maintain
 title: 維護、部署注意事項
 description: 這 很 重 要！
@@ -19,13 +19,13 @@ description: 這 很 重 要！
 ### 執行中電喵本體
 
 ```bash
-nohup python3 main.py &>/var/log/Bot_uwu/Log_$(date +%Y-%m-%dT%H-%M-%S).log&
+nohup uv run python3 main.py &> /var/log/Bot_uwu/Log_$(date +%Y-%m-%dT%H-%M-%S).log &
 ```
 
 ### 中電商店
 
 ```bash
-nohup flask run &>/var/log/uwuStore/Log_$(date +%Y-%m-%dT%H-%M-%S).log&
+nohup uv run flask run &> /var/log/uwuStore/Log_$(date +%Y-%m-%dT%H-%M-%S).log &
 ```
 
 執行後 CLI 會顯示 Process ID，下面的例子是開啟了一個 Process ID 為 48763 的工作。這個 ID 是唯一的，用來辨別這個運行的工作。每次開啟服務後建議寫在記事本，下次關服務會比較好找到這個服務。
