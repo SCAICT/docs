@@ -19,12 +19,18 @@ description: 介紹一下
 `cog/core/sql.py` 有一個 function write 需要呼叫，應該寫成：
 
 ```py
-from cog.core.sql import write
+import cog.core.sql
+
+cog.core.sql.write(...)
 ```
 
 注意盡量不要單獨 import 整個檔案
 
 - 錯誤示範
+
+```py
+from cog.core.sql import *
+```
 
 ```py
 import cog.core.sql as SQL
