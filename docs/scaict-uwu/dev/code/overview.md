@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-authors: [iach526526]
+authors: [iach526526, Winston Sung]
 slug: about
 title: Link Start!
 description: 介紹一下
